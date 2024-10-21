@@ -9,6 +9,29 @@
       height: 100%;
       margin: 0;
       font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: sticky;
+      bottom: 0;
+      width: 100%;
     }
 
     .parallax {
@@ -28,6 +51,12 @@
       text-align: center;
       padding: 20px;
       box-sizing: border-box;
+      width: 100%;
+    }
+
+    .parallax h2 {
+      width: 100%;
+      margin: 0;
     }
 
     .content {
@@ -49,14 +78,9 @@
 <body>
 
   <!-- Header -->
-  <header style="background: #333; color: #fff; padding: 20px; text-align: center;">
-    <h1>Leixões SC</h1>
-    <nav>
-      <a href="index.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Home</a>
-      <a href="about.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Sobre</a>
-      <a href="services.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Ferramentas</a>
-      <a href="contact.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Contactos</a>
-    </nav>
+  <header>
+    <h1>Leixões Sport Club - Fundado a 28 de Novembro de 1907</h1>
+
   </header>
 
   <!-- Parallax Sections -->
@@ -106,7 +130,7 @@
   <div class="parallax"><h2>Leixões, Leixões, Leixões</h2></div>
 
   <!-- Footer -->
-  <footer style="background: #333; color: #fff; text-align: center; padding: 20px;">
+  <footer>
     <p>&copy; 2024 Leixões SC. All rights reserved.</p>
   </footer>
 
