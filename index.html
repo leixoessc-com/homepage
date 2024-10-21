@@ -11,22 +11,24 @@
       font-family: Arial, sans-serif;
       display: flex;
       flex-direction: column;
+      background: white;
+      color: red;
     }
 
     header {
-      background: #fff;
-      color: #FF0000;
+      background: red;
+      color: white;
       padding: 20px;
       text-align: center;
       position: sticky;
       top: 0;
       width: 100%;
-      z-index: 10000;
+      z-index: 1000;
     }
 
     footer {
-      background: #fff;
-      color: #FF0000;
+      background: red;
+      color: white;
       text-align: center;
       padding: 20px;
       position: sticky;
@@ -57,6 +59,7 @@
     .parallax h2 {
       width: 100%;
       margin: 0;
+      font-size: 10vw; /* Huge text to fill the screen */
     }
 
     .content {
@@ -66,12 +69,12 @@
     }
 
     .content h1 {
-      font-size: 5em;
+      font-size: 2.5em;
       margin: 0;
     }
 
     .content p {
-      font-size: 2.5em;
+      font-size: 1.2em;
     }
   </style>
 </head>
@@ -79,8 +82,13 @@
 
   <!-- Header -->
   <header>
-    <h1>Leixões Sport Club - Fundado a 28 de Novembro de 1907</h1>
-
+    <h1>Leixões SC</h1>
+    <nav>
+      <a href="index.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Home</a>
+      <a href="about.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Sobre</a>
+      <a href="services.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Ferramentas</a>
+      <a href="contact.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Contactos</a>
+    </nav>
   </header>
 
   <!-- Parallax Sections -->
